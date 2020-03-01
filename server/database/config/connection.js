@@ -1,7 +1,7 @@
 const { Pool } = require('pg');
 require('env2')('./config.env');
 
-let DBUrldbUrl;
+let dbUrl;
 
 if (process.env.NODE_ENV === 'production') {
   dbUrl = process.env.DATABASE_URL;
