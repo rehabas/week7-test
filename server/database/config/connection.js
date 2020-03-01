@@ -12,7 +12,7 @@ if (process.env.NODE_ENV === 'production') {
 
 
 const options = {
-  connectionString : process.env.DB_URL,
+  connectionString : dbUrl,
   ssl: true
 };
 
